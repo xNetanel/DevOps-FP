@@ -1,0 +1,200 @@
+{
+  "id": "d1bda99f-bf93-43c6-9bd9-312ca1c3a447",
+  "version": "2.0",
+  "name": "devopsproj",
+  "url": "https://splashing-unable-amiss.ngrok-free.dev",
+  "tests": [{
+    "id": "11096ffd-55ec-4374-898a-843bd4a8e102",
+    "name": "Untitled",
+    "commands": [{
+      "id": "bcd204e4-af39-4178-a8c9-b647cc12c2cc",
+      "comment": "",
+      "command": "open",
+      "target": "/Netanel-Matan-Afik-Niv-Shir/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0814f24c-8273-40b7-a8c0-85b1996bd489",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1241x671",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c211106e-6749-4ad7-85c7-200220998c8c",
+      "comment": "",
+      "command": "click",
+      "target": "id=info-link",
+      "targets": [
+        ["id=info-link", "id"],
+        ["linkText=Visit HIT Official Site", "linkText"],
+        ["css=#info-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Visit HIT Official Site')]", "xpath:link"],
+        ["xpath=//a[@id='info-link']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, 'https://www.hit.ac.il')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Visit HIT Official Site')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8361",
+      "windowTimeout": 2000
+    }, {
+      "id": "1a5f2898-3c1b-4525-be45-191001964e08",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65516072-809d-4a9c-8403-e498a033b5b7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8361}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4240e2b2-794c-4a8c-a41f-7f6087d780cf",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "004667be-a816-4195-9812-7720a7bd644d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2851e51c-644b-4469-b9c1-adb28c1a0841",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec986c5a-651d-4279-b8ea-4b95b20e14bd",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Netanel"
+    }, {
+      "id": "06fe9b34-9f62-4504-acbc-83e5d726aa13",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-btn",
+      "targets": [
+        ["id=submit-btn", "id"],
+        ["css=#submit-btn", "css:finder"],
+        ["xpath=//button[@id='submit-btn']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit to Production')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b443c681-2b9d-4764-b62a-7f733e87ab5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c1fff32-623e-41bb-9cdf-ceaa8ab71b97",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Niv"
+    }, {
+      "id": "041a2540-c182-47ba-9f70-c1e1f5383263",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-btn",
+      "targets": [
+        ["id=submit-btn", "id"],
+        ["css=#submit-btn", "css:finder"],
+        ["xpath=//button[@id='submit-btn']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit to Production')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "662f875a-b436-4de2-a5a9-d7019555bf96",
+      "comment": "",
+      "command": "click",
+      "target": "id=info-link",
+      "targets": [
+        ["id=info-link", "id"],
+        ["linkText=Visit HIT Official Site", "linkText"],
+        ["css=#info-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Visit HIT Official Site')]", "xpath:link"],
+        ["xpath=//a[@id='info-link']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, 'https://www.hit.ac.il')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Visit HIT Official Site')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2788",
+      "windowTimeout": 2000
+    }, {
+      "id": "a2ede7d6-38b0-4294-90e3-70053bb348eb",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2788}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "888ae6d1-e5be-4b99-b428-fdfa54308f47",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3669957d-639a-44a2-b804-c84423def917",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "963b4cca-f312-4d66-99cd-7a6c5d6c6a84",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["11096ffd-55ec-4374-898a-843bd4a8e102"]
+  }],
+  "urls": ["https://splashing-unable-amiss.ngrok-free.dev/"],
+  "plugins": []
+}
