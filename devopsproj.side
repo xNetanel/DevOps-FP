@@ -2,7 +2,7 @@
   "id": "d1bda99f-bf93-43c6-9bd9-312ca1c3a447",
   "version": "2.0",
   "name": "devopsproj",
-  "url": "https://splashing-unable-amiss.ngrok-free.dev",
+  "url": "https://splashing-unable-amiss.ngrok-free.dev/?ngrok-skip-browser-warning=true",
   "tests": [{
     "id": "11096ffd-55ec-4374-898a-843bd4a8e102",
     "name": "Untitled",
@@ -13,6 +13,26 @@
       "target": "/Netanel-Matan-Afik-Niv-Shir/",
       "targets": [],
       "value": ""
+    }, {
+      "id": "ngrok-bypass-pause",
+      "comment": "המתנה של שנייה וחצי כדי לוודא שהמסך של ngrok נטען לחלוטין ב-Headless",
+      "command": "pause",
+      "target": "",
+      "value": "1500"
+    }, {
+      "id": "ngrok-bypass-click-native",
+      "comment": "לחיצה ישירה על הכפתור לפי ה-ID או הטקסט שלו",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Visit Site') or contains(.,'skip') or @id='skip-browser-warning']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ngrok-bypass-wait-app",
+      "comment": "המתנה שהאלמנטים של האפליקציה שלכם יופיעו בהצלחה אחרי המעקף",
+      "command": "waitForElementPresent",
+      "target": "id=info-link",
+      "targets": [],
+      "value": "5000"
     }, {
       "id": "0814f24c-8273-40b7-a8c0-85b1996bd489",
       "comment": "",
@@ -158,7 +178,7 @@
         ["xpath=//a[@id='info-link']", "xpath:attributes"],
         ["xpath=//a[contains(@href, 'https://www.hit.ac.il')]", "xpath:href"],
         ["xpath=//a", "xpath:position"],
-        ["xpath=//a[contains(.,'Visit HIT Official Site')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'Visit HIT Official Site')]", "innerText"]
       ],
       "value": "",
       "opensWindow": true,

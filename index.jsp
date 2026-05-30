@@ -5,7 +5,7 @@
     <title>HIT DevOps Production App</title>
 </head>
 <body>
-    <h2>Welcome to HIT DevOps Portal</h2>
+    <h2>Welcome to HIT DevOps Portal!</h2>
 
     <!-- Link Requirement -->
     <a id="info-link" href="https://www.hit.ac.il" target="_blank">Visit HIT Official Site</a>
